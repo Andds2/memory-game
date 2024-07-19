@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container" id="memory-game">
+            <button class="card-memory" value="1" id="a1"><img src="dist/img/russell.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="1.1" id="b1"><img src="dist/img/russell.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="2" id="c1"><img src="dist/img/boo.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="2.1" id="d1"><img src="dist/img/boo.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="3" id="e1"><img src="dist/img/alegria.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="3.1" id="a2"><img src="dist/img/alegria.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="4" id="b2"><img src="dist/img/ralph.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="4.1" id="c2"><img src="dist/img/ralph.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="5" id="d2"><img src="dist/img/woody.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="5.1" id="e2"><img src="dist/img/woody.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="6" id="a3"><img src="dist/img/walle.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="6.1" id="b3"><img src="dist/img/walle.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="7" id="c3"><img src="dist/img/nemo.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="7.1" id="d3"><img src="dist/img/nemo.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="8" id="e3"><img src="dist/img/baymax.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="8.1" id="a4"><img src="dist/img/baymax.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="9" id="b4"><img src="dist/img/minions.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="9.1" id="c4"><img src="dist/img/minions.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="10" id="d4"><img src="dist/img/pinguins.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="10.1" id="e4"><img src="dist/img/pinguins.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="11" id="a5"><img src="dist/img/enrolados.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="11.1" id="b5"><img src="dist/img/enrolados.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="12" id="c5"><img src="dist/img/incriveis.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="12.1" id="d5"><img src="dist/img/incriveis.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="13" id="e5"><img src="dist/img/mate.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="13.1" id="a6"><img src="dist/img/mate.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="14" id="b6"><img src="dist/img/red.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="14.1" id="c6"><img src="dist/img/red.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="15" id="d6"><img src="dist/img/zootopia.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="15.1" id="e6"><img src="dist/img/zootopia.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="16" id="f1"><img src="dist/img/Olaf.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="16.1" id="f2"><img src="dist/img/Olaf.png" alt="" width="100px" class="img-w"></button>
+            <button class="card-memory" value="17" id="f3"><img src="dist/img/viva.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="17.1" id="f4"><img src="dist/img/viva.png" alt="" width="120px" class="img-w"></button>
+            <button class="card-memory" value="18" id="f5"><img src="dist/img/ratatouille.png" alt="" height="100px" class="img-h"></button>
+            <button class="card-memory" value="18.1" id="f6"><img src="dist/img/ratatouille.png" alt="" height="100px" class="img-h"></button>
+        </div>
+        <div class="btn-container">
+            <div>
+                <button class="btn-time" id="start">Iniciar</button>
+                <button class="btn-restart" id="restart">Reiniciar</button>
+            </div>
+            <h1 class="show-time" id="time">00:00:00</h1>
+            <div class="erros-container">
+                <h1>Erros:</h1>
+                <h1 id="erros">0</h1>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./dist/js/script.js"></script>
+</html>
